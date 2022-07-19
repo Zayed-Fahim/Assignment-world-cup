@@ -1,0 +1,308 @@
+/* --------------------
+   Banner part started 
+-----------------------*/
+
+.banner-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1321px;
+    height: 646px;
+    background: #161616;;
+    margin:50px auto 0 auto;
+    border-radius: 30px;
+}
+.banner-part h1{
+    font-family: 'Gulzar', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 106px;
+}
+.banner-part p{
+    color: white;
+    padding-left: 106px;
+}
+.banner-part .button{
+    margin-left: 106px;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.banner-part img{
+    width: 581px;
+    height: 613px;
+    margin-top: 37px;
+    margin-right: 79px;
+}
+
+/* --------------------
+   Banner part Ended 
+-----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
