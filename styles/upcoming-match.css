@@ -185,43 +185,36 @@
     font-family: 'Roboto', sans-serif;
     padding-left: 24px;
 }
-
-.blog {
+.upcoming-match {
     width: 312px;
-    height: 362px;
+    height: 242px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
 
-.blog img {
-    width: 312px;
-    height: 175px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.blog button {
-    margin: 20px 192px 0 20px;
-    border-radius: 5px;
-    border: 1px solid #161616;
-}
-
-.blog h3 {
-    width: 272px;
-    height: 54px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #161616;
-    padding-left: 20px;
-}
-
-.time-message {
+.flag-section {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 170px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 53px;
 }
+
+.match-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.match-fixture h3 {
+    margin-bottom: 0;
+}
+
+.match-date-time p {
+    margin-top: 10;
+}
+
 
 /* ---------------------------
     Middle side another part Ended 
@@ -240,7 +233,7 @@
             font-family: 'Montserrat', sans-serif;
             font-family: 'Poppins', sans-serif;
             font-family: 'Roboto', sans-serif;
-            margin-top: 570px;
+            margin-top: 335px;
         }
     
         .footer-header {
