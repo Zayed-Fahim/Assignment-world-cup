@@ -1,3 +1,7 @@
+body{
+    max-width: 100%;
+    margin: 0;
+}
 /* --------------------
     Banner part started 
 -----------------------*/
@@ -5,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
     width: 1321px;
     height: 646px;
     font-family: 'Gulzar', serif;
@@ -26,8 +31,15 @@
     padding-left: 106px;
 }
 .banner-part p{
+    width: 506px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
     color: white;
     padding-left: 106px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .banner-part .button{
     width: 187px;
@@ -103,8 +115,8 @@
     margin: 30px 30px 0 30px;
     width: 252px;
     height: 64px;
-    /* background: #DD0000; */
-    background: #FFFFFF;
+    background: #DD0000;
+    /* background: #FFFFFF; */
     border-radius: 10px;
 }
 .button-1 a{
@@ -123,10 +135,10 @@
 } 
 .button-3 a{
     text-decoration: none;
-    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    color: #161616;
+    color: white;
+    font-weight: 600;
 }
 .middle-side-part a:hover{
     display: flex;
@@ -262,7 +274,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .media-links a{
     text-decoration: none;
@@ -272,9 +284,174 @@ hr{
     Footer Ended 
     ---------------*/
 
+/*--------------------------- 
+Media Query-Responsive website 
+-----------------------------*/
 
+/* For Mobile Devices */
+@media only screen and (max-width:688px) {
+    .banner-part {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 334px;
+        height: 535px;
+        margin: 44px 20px 0 28px;
+    }
 
+    .banner-part h1 {
+        width: 200px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 28px;
+        text-align: center;
+    }
 
+    .banner-part p {
+        width: 258px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .banner-part .button {
+        width: 187px;
+        height: 56px;
+        margin-right: 100px;
+        margin-top: 34px;
+        border: none;background-color: #DD0000;
+        border-radius: 5px;
+        color: white;
+        padding: 16px 25px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        box-shadow: inset 0 0 0 0 #800000;
+        transition: ease-out 1s;
+    }
+        .button:hover {
+            box-shadow: inset 187px 0 0 0 #800000;
+        }
+
+    .banner-part img {
+        width: 233px;
+        height: 245px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 17.5px;
+        padding-left: 15px;
+    }
+
+    .middle-part {
+        background: white;
+        text-align: center;
+        margin: 24px auto 0 auto;
+        padding: 0;
+    }
+
+    .button-1 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    .button-2 {
+        width: 160px;
+        height: 48px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
+    .button-3 {
+        width: 160px;
+        height: 48px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        background: #DD0000;
+    }
+
+    .middle-part {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .middle-side-another-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
+    }
+
+    .blog {
+        text-align: center;
+        padding-left: 0;
+        margin-right: 40px;
+    }
+
+    .blog button {
+        margin-left: 4px;
+    }
+
+    .blog h3 {
+        width: 240.05px;
+        height: 56px;
+        padding-left: 28px;
+    }
+
+    .time-message {
+        margin-left: 31px;
+    }
+
+    .footer-part {
+        margin-top: 3500px;
+    }
+
+    .main-footer {
+        width: 100%;
+        height: 500px;
+        background: #161616;
+    }
+
+    .footer-header h1 {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    hr {
+        margin-top: 24px;
+    }
+
+    .lower-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
 
 
 
