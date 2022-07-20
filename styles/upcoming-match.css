@@ -1,7 +1,7 @@
 /* --------------------
     Banner part started 
 -----------------------*/
-.banner-part{
+.banner-part {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,11 +13,13 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background: #161616;;
-    margin:50px auto 0 auto;
+    background: #161616;
+    ;
+    margin: 50px auto 0 auto;
     border-radius: 30px;
 }
-.banner-part h1{
+
+.banner-part h1 {
     color: white;
     font-weight: 700;
     font-size: 70px;
@@ -25,11 +27,13 @@
     margin: 0;
     padding-left: 106px;
 }
-.banner-part p{
+
+.banner-part p {
     color: white;
     padding-left: 106px;
 }
-.banner-part .button{
+
+.banner-part .button {
     width: 187px;
     height: 56px;
     margin-left: 106px;
@@ -41,18 +45,20 @@
     font-size: 20px;
     line-height: 23px;
     box-shadow: inset 0 0 0 0 #800000;
-    transition:  ease-out 1s;
+    transition: ease-out 1s;
 }
-.button:hover{
+
+.button:hover {
     box-shadow: inset 187px 0 0 0 #800000;
 }
 
-.banner-part img{
+.banner-part img {
     width: 581px;
     height: 613px;
     margin-top: 37px;
     margin-right: 79px;
 }
+
 /* --------------------
     Banner part Ended 
 -----------------------*/
@@ -64,7 +70,7 @@
 /* --------------------
     Middle side part Started 
 -----------------------*/
-.middle-part{
+.middle-part {
     display: flex;
     width: 312px;
     height: 312px;
@@ -79,12 +85,25 @@
     margin-left: 283px;
     margin-top: 130px;
 }
+
 .middle-side-part {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.button-1,.button-2 {
+
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 30px 0 30px;
+    width: 252px;
+    height: 64px;
+    background: #DD0000;
+    border-radius: 10px;
+}
+.button-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +114,8 @@
     border-radius: 10px;
     text-align: center;
 }
-.button-3{
+
+.button-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,32 +123,36 @@
     margin: 30px 30px 0 30px;
     width: 252px;
     height: 64px;
-    /* background: #DD0000; */
     background: #FFFFFF;
     border-radius: 10px;
 }
-.button-1 a{
+
+.button-1 a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.button-2 a {
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #161616;
 }
-.button-2 a{
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #161616;
-} 
-.button-3 a{
+
+.button-3 a {
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #161616;
 }
-.middle-side-part a:hover{
+
+.middle-side-part a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,16 +164,15 @@
     background: #DD0000;
     color: #FFFFFF;
     border-radius: 10px;
-    
 }
+
 /* --------------------
     Middle side part Ended 
 -----------------------*/
-
 /* --------------------
     Middle side another part Started 
 -----------------------*/
-.middle-side-another-part{
+.middle-side-another-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 24px;
@@ -160,25 +183,29 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    padding-left: 24px; 
+    padding-left: 24px;
 }
-.blog{
+
+.blog {
     width: 312px;
     height: 362px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
-.blog img{
+
+.blog img {
     width: 312px;
     height: 175px;
     border-radius: 10px 10px 0px 0px;
 }
-.blog button{
+
+.blog button {
     margin: 20px 192px 0 20px;
     border-radius: 5px;
     border: 1px solid #161616;
 }
-.blog h3{
+
+.blog h3 {
     width: 272px;
     height: 54px;
     font-weight: 600;
@@ -187,335 +214,93 @@
     color: #161616;
     padding-left: 20px;
 }
-.time-message{
+
+.time-message {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 170px;
 }
-/* --------------------------
-    Middle side another part Ended 
-    -------------------------------*/
 
-/* --------------------
-    Middle part Ended 
------------------------*/
+/* ---------------------------
+    Middle side another part Ended 
+    ------------------------------*/
 
 /*--------------- 
     Footer Started 
     ---------------*/
-.footer-part{
-    width: 100%;
-    height: 444px;
-    background: #161616;
-    font-family: 'Gulzar', serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 950px;
-}
-.footer-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-.footer-header h1{
-    width: 95px;
-    height: 60px;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-    margin: 115px auto 50px auto;
-}
-hr{
-    width: 1320px;
-    height: 0px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
-    margin: 0 auto;
-}
-.lower-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 50px;
-}
-.lower-footer a{
-    text-decoration: none;
-    padding: 0 25px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #B9B9B9;
-}
-.media-links{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-.media-links a{
-    text-decoration: none;
-    padding: 0 20px;
-}
+        .footer-part {
+            width: 100%;
+            height: 444px;
+            background: #161616;
+            font-family: 'Gulzar', serif;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Lobster', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 570px;
+        }
+    
+        .footer-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+    
+        .footer-header h1 {
+            width: 95px;
+            height: 60px;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 60px;
+            margin: 115px auto 50px auto;
+        }
+    
+        hr {
+            width: 1320px;
+            height: 0px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+        .lower-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 50px;
+        }
+    
+        .lower-footer a {
+            text-decoration: none;
+            padding: 0 25px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #B9B9B9;
+        }
+    
+        .media-links {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    
+        .media-links a {
+            text-decoration: none;
+            padding: 0 20px;
+        }
+    
 /*--------------- 
     Footer Ended 
     ---------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
